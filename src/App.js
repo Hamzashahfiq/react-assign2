@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/header/Navbar';
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
+import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import bootstrapjs  from '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <div >
-      <Navbar />
+      <Home />
        
     </div>
   );
