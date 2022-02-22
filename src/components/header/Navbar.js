@@ -4,7 +4,7 @@ import Navimg from '../../assets/images/navbarlogo.png'
 function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div className="container-fluid">
+            <div className="container">
                 <div>
                     <a className="navbar-brand" href="#">
                         <img src={Navimg} alt="" width="30" height="36" className="d-inline-block align-text-top" />
