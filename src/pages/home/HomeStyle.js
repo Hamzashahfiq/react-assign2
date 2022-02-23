@@ -3,7 +3,7 @@ const styles = {
       zeroMP: {
           margin: '0px',
           padding: '0px',
-          boxSizing: 'border-box'
+          boxSizing: 'border-box',
       }
     //   headerBg: {
     //     widht:100,

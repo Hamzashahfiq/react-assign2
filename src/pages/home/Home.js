@@ -1,15 +1,22 @@
 import Navbar from '../../components/header/Navbar';
 import styles from './HomeStyle';
-import Hero from '../../components/hero/Hero'
+import Hero from '../../components/hero/Hero';
+import Reputation from '../../components/reputation/Reputation';
 
-console.log(styles.headerBg);
 function Home() {
     return (
         <div className="container-fluid" style={styles.zeroMP}>
-            <div className="row">
+            <div className="row" style={styles.zeroMP}>
                 <Navbar />
             </div>
+            <div className="row" style={styles.zeroMP}>
                 <Hero />
+            </div>
+            <div className="row" style={styles.zeroMP}>
+                <Reputation />
+            </div>
+
+
         </div>
     )
 }
