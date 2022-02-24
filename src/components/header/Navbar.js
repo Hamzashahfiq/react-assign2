@@ -18,9 +18,9 @@ function Navbar() {
                     <div className ="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className ="navbar-nav">
                             <a className ="nav-link active px-lg-4" aria-current="page" href="#">Home</a>
-                            <a className ="nav-link px-lg-4" href="#">About Us</a>
+                            <a className ="nav-link px-lg-4" href="#aboutUS">About Us</a>
                             <a className ="nav-link px-lg-4" href="#">Projects</a>
-                            <a className ="nav-link px-lg-4" href="#">Services</a>
+                            <a className ="nav-link px-lg-4" href="#services">Services</a>
                             <a className ="nav-link px-lg-4 text-danger fw-bold" href="#">Contact Us</a>
                         </div>
                     </div>

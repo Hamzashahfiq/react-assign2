@@ -11,9 +11,9 @@ headerBg: {
     height:"590px",
     backgroundImage: `url(${Headerimg})`,
     backgroundRepeat : "no-repeat",
-    backgroundSize:"container",
+    backgroundSize:"cover",
     backgroundColor:'#fde4cf',
-    backgroundAttachment: 'auto',
+    backgroundAttachment: 'fixed',
     backgroundPosition:'center center',
     position: 'relative'
   },
