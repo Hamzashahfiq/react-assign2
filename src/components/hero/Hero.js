@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../components/hero/HeroStyle';
-import HeroButton from '../heroButton/HeroButton';
+import Button from '../button/Button';
 
 
 function Hero() {
@@ -17,8 +17,8 @@ function Hero() {
               <p>The National University of Architecture</p>
               <div className="container">
                 <div className='row'>
-                  <div className="col-6 p-0 mb-1"><HeroButton buttonName="&#8592; Back" /></div>
-                  <div className="col-6 p-0 mb-1"> <HeroButton buttonName="Next &#8594;" /></div>
+                  <div className="col-6 p-0 mb-1"><Button buttonName="&#8592; Back" buttonClass ="btn btn-outline-dark text-white" /></div>
+                  <div className="col-6 p-0 mb-1"> <Button buttonName="Next &#8594;" buttonClass ="btn btn-outline-dark text-white" /></div>
                 </div>
               </div>
             </div>

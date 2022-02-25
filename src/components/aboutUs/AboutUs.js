@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './AboutUsStyle';
+import Button from '../button/Button';
 
 function AboutUs() {
     return (
@@ -13,7 +14,7 @@ function AboutUs() {
                                   <p className='mt-4'>For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way. <br/><br/>
                                    We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
                                    <br/><br/><br/>
-                                   <button type="button" class="btn btn-light">More on Our History</button>
+                                   <Button  buttonName="More on Our History" buttonClass ="btn btn-light" />
 
 
                               </div>

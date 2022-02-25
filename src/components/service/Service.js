@@ -12,6 +12,7 @@ import ServiceCardBottomImg1 from '../../assets/images/serviceBottomImg1.png';
 import ServiceCardBottomImg2 from '../../assets/images/serviceBottomImg2.png';
 import ServiceCardBottomImg3 from '../../assets/images/serviceBottomImg3.png';
 import ServiceCardBottomImg4 from '../../assets/images/serviceBottomImg4.png';
+import Button from '../button/Button';
 
 
 function Service() {
@@ -56,7 +57,8 @@ function Service() {
                     <div className="col-12 col-lg-3">
                         <h1 className='p-5 ps-0'>30 Years Experience</h1>
                         <p>Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
-                        <button type="button" class="btn btn-primary my-5">More on Our History</button>
+                        
+                         <Button  buttonName="Contact Us" buttonClass ="btn btn-primary my-5 px-5" />
                     </div>
                 </div>
             </div>
