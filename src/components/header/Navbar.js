@@ -2,7 +2,7 @@ import React from 'react'
 import Navimg from '../../assets/images/navbarlogo.png'
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
             <div className="container">
                 <div>
                     <a className="navbar-brand" href="#">

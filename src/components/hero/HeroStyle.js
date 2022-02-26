@@ -7,7 +7,7 @@ headerBg: {
     margin: '0',
     padding:'0',
     boxSizing: 'border-box',
-    Width: "100vw",
+    Width: "100%",
     height:"590px",
     backgroundImage: `url(${Headerimg})`,
     backgroundRepeat : "no-repeat",

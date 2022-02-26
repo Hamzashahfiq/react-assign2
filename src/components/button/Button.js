@@ -1,12 +1,12 @@
 import React from 'react'
 
-function HeroButton({buttonClass,buttonName}) {
+function Button({buttonClass,buttonName}) {
   return (
-    <div>
+    <div className=''>
         <button type="button" class={buttonClass}>{buttonName}</button>
     </div>
   )
 }
 
 
-export default HeroButton; 
+export default Button; 

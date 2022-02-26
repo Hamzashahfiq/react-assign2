@@ -1,10 +1,11 @@
 
 import Service from '../../components/service/Service';
 import Ads from '../../components/adsSection/Ads';
+import styles from './ServicePageStyle';
 
 function ServicePage() {
     return (
-        <div id="ServicePage">
+        <div id="ServicePage" style={styles.serviceMainDiv}>
             <div className="row">
                 <Service />
             </div>
