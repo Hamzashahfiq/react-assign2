@@ -31,7 +31,7 @@ function Cta() {
                         <div class="row g-3 mx-lg-5 my-2">
                             <div className="col-12">
                                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
-                                <h6 className='my-3'><span className='text-red'>*</span> indicates a required field</h6>
+                                <h6 className='my-3'><span className='text-danger'>*</span> indicates a required field</h6>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="btn btn-primary px-5">Submit</button>

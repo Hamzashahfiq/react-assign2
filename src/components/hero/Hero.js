@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="row" style={styles.headerBg}>
       <div className="container">
-        <div className="row">
+        <div className="row my-4">
           <div className="col-md-6"><h1 className='fw-bold p-5'>
             Building things is our mission. Design by hamza 5330.
           </h1></div>

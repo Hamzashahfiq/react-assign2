@@ -1,13 +1,14 @@
 import React from 'react'
-import Navimg from '../../assets/images/navbarlogo.png'
+import Logo from '../logo/Logo';
+import styles from './NavbarStyle';
+
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white" style={styles.navSticky}>
             <div className="container">
                 <div>
                     <a className="navbar-brand" href="#">
-                        <img src={Navimg} alt="" width="30" height="36" className="d-inline-block align-text-top" />
-                        <span className='text-primary p-2 fw-bold'>TheBox</span>
+                       <Logo/>
                     </a>
 
                 </div>
@@ -17,11 +18,11 @@ function Navbar() {
                     </button>
                     <div className ="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className ="navbar-nav">
-                            <a className ="nav-link active px-lg-4" aria-current="page" href="#Home">Home</a>
+                            <a className ="nav-link active px-lg-4" aria-current="page" href="#Home" style={styles.na}>Home</a>
                             <a className ="nav-link px-lg-4" href="#AboutUs">About Us</a>
                             <a className ="nav-link px-lg-4" href="#Project">Projects</a>
                             <a className ="nav-link px-lg-4" href="#ServicePage">Services</a>
-                            <a className ="nav-link px-lg-4 text-danger fw-bold" href="#">Contact Us</a>
+                            <a className ="nav-link px-lg-4 text-danger fw-bold" href="#contactUs">Contact Us</a>
                         </div>
                     </div>
                 </div>

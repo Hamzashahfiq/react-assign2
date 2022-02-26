@@ -5,6 +5,7 @@ const styles = {
           padding: '0px',
           boxSizing: 'border-box',
       }
+
     //   headerBg: {
     //     widht:100,
     //     height:"646px",

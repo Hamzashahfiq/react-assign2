@@ -8,6 +8,9 @@ import ServicePage from './pages/service/ServicePage';
 import ProjectPage from './pages/project/ProjectPage';
 import Cta from './components/cta/Cta';
 import Footer from './components/footer/Footer';
+import BottomPage from './pages/bottom/BottomPage';
+
+
 function App() {
   return (
     <div className=' container-fluid mp-zero'>
@@ -17,6 +20,10 @@ function App() {
         <ServicePage />
         <ProjectPage />
         <Cta />
+        <div className='container'> 
+        <BottomPage />
+        </div>
+       
         <Footer />
       </div>
     </div>
