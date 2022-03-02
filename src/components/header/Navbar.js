@@ -4,13 +4,12 @@ import styles from './NavbarStyle';
 
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-white" style={styles.navSticky}>
+        <nav className="navbar navbar-expand-lg navbar-light border" style={styles.navSticky}>
             <div className="container">
                 <div>
                     <a className="navbar-brand" href="#">
                        <Logo/>
                     </a>
-
                 </div>
                 <div>
                     <button className ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

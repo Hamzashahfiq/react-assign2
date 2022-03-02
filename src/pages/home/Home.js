@@ -4,8 +4,8 @@ import Hero from '../../components/hero/Hero';
 import Reputation from '../../components/reputation/Reputation';
 function Home() {
     return (
-        <div className="container-fluid" style={styles.zeroMP}>
-            <div className="row" style={styles.zeroMP}>
+        <div className="container-fluid " style={styles.zeroMP}>
+            <div className="row border" style={styles.zeroMP}>
                 <Navbar />
             </div>
             <div className="row" id= "Home" style={styles.zeroMP}>

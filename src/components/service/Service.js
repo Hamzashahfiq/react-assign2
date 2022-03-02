@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './ServiceStyle';
+import './ServiceStyle.css'
 import ServiceCard from '../serviceCard/ServiceCard';
 import ServiceCardImg1 from '../../assets/images/serviceCardLogo1.png';
 import ServiceCardImg2 from '../../assets/images/serviceCardLogo2.png';
@@ -13,6 +14,7 @@ import ServiceCardBottomImg2 from '../../assets/images/serviceBottomImg2.png';
 import ServiceCardBottomImg3 from '../../assets/images/serviceBottomImg3.png';
 import ServiceCardBottomImg4 from '../../assets/images/serviceBottomImg4.png';
 import Button from '../button/Button';
+
 
 
 function Service() {
@@ -47,15 +49,15 @@ function Service() {
             <div className="container">
                 <div className="row m-2 m-md-5">
                     <div className="col-12 px-md-5 col-lg-9">
-                        <div className='' style={styles.aboutBDiv}>
-                            <div className='' style={styles.aboutBCard1} >< ServiceCardBottom cardBottomContent={serviceCardBottom1} /></div>
-                            <div style={styles.aboutBCard2}>< ServiceCardBottom cardBottomContent={serviceCardBottom2} /></div>
-                            <div style={styles.aboutBCard3}>< ServiceCardBottom cardBottomContent={serviceCardBottom3} /></div>
-                            <div style={styles.aboutBCard4}>< ServiceCardBottom cardBottomContent={serviceCardBottom4} /></div>
+                        <div className='cardPosition' style={styles.aboutBDiv}>
+                            <div className='cardPosition' style={styles.aboutBCard1} >< ServiceCardBottom cardBottomContent={serviceCardBottom1} /></div>
+                            <div className='cardPosition' style={styles.aboutBCard2}>< ServiceCardBottom cardBottomContent={serviceCardBottom2} /></div>
+                            <div className='cardPosition' style={styles.aboutBCard3}>< ServiceCardBottom cardBottomContent={serviceCardBottom3} /></div>
+                            <div className='cardPosition' style={styles.aboutBCard4}>< ServiceCardBottom cardBottomContent={serviceCardBottom4} /></div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-3">
-                        <h1 className='p-5 ps-0'>30 Years Experience</h1>
+                    <div className="col-12  mx-3 m-md-0 my-5 col-lg-3">
+                        <h1 className='p-5 ps-0 my-3'>30 Years Experience</h1>
                         <p>Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
                         
                          <Button  buttonName="Contact Us" buttonClass ="btn btn-primary my-5 px-5" />
